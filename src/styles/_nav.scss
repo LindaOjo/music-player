@@ -6,12 +6,12 @@ nav {
     button {
         background: transparent;
         cursor: pointer;
-        border: 2px solid rgb(65, 65, 65);
+        border: 2px solid rgb(10, 10, 10);
         border-radius: 14px;
-        padding: 0.5rem;
+        padding: 0.5rem 0.8rem;
         transition: all 0.3s ease;
         &:hover {
-            background: rgb(174, 221, 232);
+            background: #45B1AA;
         }
     }
 
