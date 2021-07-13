@@ -5,6 +5,15 @@
 }
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    min-height: 100vh;;
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 23px ), repeating-linear-gradient( #45b1aa55, #45b1aa );
+
 }
 h1, h2, h3 {
     color: rgb (54, 54, 54);
@@ -12,7 +21,7 @@ h1, h2, h3 {
 
 h3, h4 {
     font-weight: 400;
-    color: rgb(104, 104, 104);
+    color: rgb(0, 0, 0);
 }
 
 .App {
