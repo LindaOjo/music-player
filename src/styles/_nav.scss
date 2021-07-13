@@ -5,9 +5,9 @@ nav {
     align-items: center;
     button {
         background: transparent;
-        border: none;
         cursor: pointer;
         border: 2px solid rgb(65, 65, 65);
+        border-radius: 14px;
         padding: 0.5rem;
         transition: all 0.3s ease;
         &:hover {
@@ -22,3 +22,10 @@ nav {
 
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        button {
+            z-index: 10;
+        }
+    }
+}
